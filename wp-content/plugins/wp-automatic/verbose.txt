@@ -1,0 +1,47 @@
+*   Trying 23.212.164.50:443...
+* Connected to en.as.com (23.212.164.50) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=diarioas.web.arc-cdn.net
+*  start date: May 22 16:13:22 2023 GMT
+*  expire date: Aug 20 16:13:21 2023 GMT
+*  subjectAltName: host "en.as.com" matched cert's "en.as.com"
+*  issuer: C=US; O=Let's Encrypt; CN=R3
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* Using HTTP2, server supports multiplexing
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* h2h3 [:method: GET]
+* h2h3 [:path: /soccer/which-teams-have-qualified-for-uefa-champions-league-group-stage-for-the-202324-season-n/]
+* h2h3 [:scheme: https]
+* h2h3 [:authority: en.as.com]
+* h2h3 [user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+* h2h3 [accept: */*]
+* h2h3 [referer: http://www.bing.com/]
+* Using Stream ID: 1 (easy handle 0x22fa2e5ffa0)
+> GET /soccer/which-teams-have-qualified-for-uefa-champions-league-group-stage-for-the-202324-season-n/ HTTP/2
+Host: en.as.com
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+accept: */*
+referer: http://www.bing.com/
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< content-type: text/html; charset=utf-8
+< server: openresty
+< etag: W/"27fc3-5juwugk8Bg2YqK+E/yxJ4fJPJJo"
+< last-modified: Mon, 29 May 2023 13:55:18 GMT
+< x-arc-pb-request-id: 5e03801b-a2ab-463b-a348-2af5fe5ee288
+< cache-control: private, max-age=60
+< expires: Mon, 29 May 2023 13:56:51 GMT
+< date: Mon, 29 May 2023 13:55:51 GMT
+* Added cookie arc-geo="{"georegion":"21","countrycode":"BD","regioncode":"eu-central-1","timezone":"GMT+6","continent":"AS"}" for domain en.as.com, path /, expire 1685369451
+< set-cookie: arc-geo={"georegion":"21","countrycode":"BD","regioncode":"eu-central-1","timezone":"GMT+6","continent":"AS"}; expires=Mon, 29-May-2023 14:10:51 GMT; path=/
+< content-security-policy: upgrade-insecure-requests
+< content-security-policy: frame-ancestors 'none'
+< x-arc-request-id: 0.2ea4d417.1685368550.170ca2be
+< akamai-true-ttl: 130
+< 
+* Connection #0 to host en.as.com left intact
